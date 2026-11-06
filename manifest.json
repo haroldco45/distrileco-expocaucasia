@@ -1,0 +1,15 @@
+{
+  "name": "Distrileco en ExpoCaucasia 2026",
+  "short_name": "Distrileco Expo",
+  "description": "Super Arroz y Arroz Vistahermosa: ofertas de feria, rifas, cambio de bolsas por libras de arroz y pedidos para tenderos.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#0a1c4d",
+  "theme_color": "#102a6e",
+  "lang": "es-CO",
+  "icons": [
+    {"src": "img/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any"},
+    {"src": "img/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any"}
+  ]
+}

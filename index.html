@@ -1,0 +1,702 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Distrileco en ExpoCaucasia 2026 · Super Arroz y Arroz Vistahermosa</title>
+<meta name="description" content="Visita el stand de Distrileco en ExpoCaucasia 2026: ofertas de feria en Super Arroz y Arroz Vistahermosa, rifas, cambia tus bolsas por libras de arroz y pedidos para tenderos.">
+<meta name="theme-color" content="#102a6e">
+<link rel="manifest" href="manifest.json">
+<link rel="icon" href="img/icon-192.png">
+<link rel="apple-touch-icon" href="img/icon-192.png">
+<!-- Vista previa del enlace (OG / Twitter) -->
+<meta property="og:title" content="Distrileco en ExpoCaucasia 2026 · Super Arroz y Arroz Vistahermosa">
+<meta property="og:description" content="Ofertas de feria, rifas, cambia tus bolsas por libras de arroz y degustación. 6 y 7 de noviembre, Caucasia.">
+<meta property="og:image" content="https://distrileco-expocaucasia.netlify.app/img/og-image.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:url" content="https://distrileco-expocaucasia.netlify.app/">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="es_CO">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Distrileco en ExpoCaucasia 2026">
+<meta name="twitter:description" content="Super Arroz y Arroz Vistahermosa: ofertas de feria, rifas y cambio de bolsas por libras de arroz.">
+<meta name="twitter:image" content="https://distrileco-expocaucasia.netlify.app/img/og-image.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800;900&family=Barlow:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--navy:#102a6e;--navy2:#0a1c4d;--red:#ce1126;--yel:#ffcc00;--org:#ff7a00;--grn:#43b02a;--ink:#141821;--mut:#5c6475;--bg:#f5f6fa;--card:#fff;--r:18px}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:Barlow,system-ui,sans-serif;background:var(--bg);color:var(--ink);overflow-x:hidden;-webkit-font-smoothing:antialiased}
+h1,h2,h3,.cond{font-family:"Barlow Condensed",sans-serif;text-transform:uppercase;letter-spacing:.5px;line-height:.95}
+img{display:block;max-width:100%}
+a{color:inherit}
+button{font:inherit;cursor:pointer;border:0}
+.wrap{max-width:1120px;margin:0 auto;padding:0 18px}
+
+/* barra superior */
+.top{position:sticky;top:0;z-index:50;background:rgba(16,42,110,.94);backdrop-filter:blur(10px);color:#fff}
+.top .wrap{display:flex;align-items:center;gap:12px;height:62px}
+.brand{display:flex;align-items:center;gap:10px;text-decoration:none}
+.brand img{width:40px;height:40px;border-radius:10px;object-fit:cover;background:#fff}
+.brand b{font-family:"Barlow Condensed";font-size:24px;font-weight:900;letter-spacing:1px}
+.brand small{display:block;font-size:11px;opacity:.8;letter-spacing:1.5px;text-transform:uppercase;margin-top:-3px}
+.top nav{margin-left:auto;display:flex;gap:6px;align-items:center}
+.top nav a{font-family:"Barlow Condensed";font-weight:700;text-transform:uppercase;text-decoration:none;font-size:15px;padding:8px 10px;border-radius:8px;opacity:.9}
+.top nav a:hover{background:rgba(255,255,255,.12)}
+.lang{display:flex;background:rgba(255,255,255,.12);border-radius:30px;padding:3px}
+.lang button{background:none;color:#fff;font-family:"Barlow Condensed";font-weight:800;padding:6px 11px;border-radius:30px;font-size:14px}
+.lang button.on{background:var(--yel);color:var(--navy)}
+@media(max-width:820px){.top nav a{display:none}}
+
+/* hero */
+.hero{position:relative;min-height:92vh;display:flex;align-items:flex-end;color:#fff;overflow:hidden;background:var(--navy2)}
+.hero .bg{position:absolute;inset:0;background:url(img/stand.jpg) center 35%/cover;animation:kb 22s ease-in-out infinite alternate;transform-origin:60% 40%}
+@keyframes kb{from{transform:scale(1.04)}to{transform:scale(1.2) translate(-2%,2%)}}
+.hero:after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(10,28,77,.25) 0%,rgba(10,28,77,.15) 35%,rgba(10,28,77,.92) 78%,var(--navy2) 100%)}
+.hero .wrap{position:relative;z-index:2;padding-bottom:56px;padding-top:120px;width:100%}
+.pill{display:inline-flex;align-items:center;gap:8px;background:var(--yel);color:var(--navy);font-family:"Barlow Condensed";font-weight:800;text-transform:uppercase;padding:7px 14px;border-radius:40px;font-size:15px;letter-spacing:1px}
+.live{width:10px;height:10px;border-radius:50%;background:var(--red);box-shadow:0 0 0 0 rgba(206,17,38,.7);animation:pulse 1.6s infinite}
+@keyframes pulse{70%{box-shadow:0 0 0 12px rgba(206,17,38,0)}100%{box-shadow:0 0 0 0 rgba(206,17,38,0)}}
+.hero h1{font-size:clamp(52px,11vw,124px);font-weight:900;margin:16px 0 8px;text-shadow:0 6px 30px rgba(0,0,0,.35)}
+.hero h1 span{color:var(--yel);display:block}
+.hero p.lead{font-size:clamp(17px,2.4vw,22px);max-width:640px;opacity:.95;line-height:1.4}
+.cta{display:flex;flex-wrap:wrap;gap:12px;margin-top:26px}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;font-family:"Barlow Condensed";font-weight:800;text-transform:uppercase;letter-spacing:.8px;font-size:19px;padding:15px 26px;border-radius:14px;text-decoration:none;transition:transform .15s,box-shadow .15s}
+.btn:active{transform:scale(.97)}
+.btn.red{background:var(--red);color:#fff;box-shadow:0 10px 30px rgba(206,17,38,.45)}
+.btn.yel{background:var(--yel);color:var(--navy)}
+.btn.ghost{background:rgba(255,255,255,.14);color:#fff;border:1.5px solid rgba(255,255,255,.4)}
+.btn.navy{background:var(--navy);color:#fff}
+.btn.wa{background:#1fa855;color:#fff}
+.clock{display:flex;gap:10px;margin-top:28px;flex-wrap:wrap}
+.clock div{background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.2);border-radius:14px;padding:10px 16px;min-width:84px;text-align:center}
+.clock b{font-family:"Barlow Condensed";font-size:34px;font-weight:800;display:block;line-height:1}
+.clock small{font-size:11px;text-transform:uppercase;letter-spacing:1.5px;opacity:.8}
+.hoy{margin-top:14px;font-size:15px;opacity:.9}
+
+/* ticker */
+.ticker{background:var(--red);color:#fff;overflow:hidden;white-space:nowrap;border-top:4px solid var(--yel)}
+.ticker .row{display:inline-block;padding:13px 0;animation:tk 32s linear infinite;font-family:"Barlow Condensed";font-weight:800;text-transform:uppercase;font-size:20px;letter-spacing:1px}
+.ticker .row span{margin:0 26px}
+.ticker .row span:after{content:"";display:inline-block;width:8px;height:8px;background:var(--yel);border-radius:50%;margin-left:52px;vertical-align:middle}
+@keyframes tk{to{transform:translateX(-50%)}}
+
+section{padding:76px 0}
+.kick{font-family:"Barlow Condensed";font-weight:800;color:var(--red);text-transform:uppercase;letter-spacing:2px;font-size:15px}
+.sec-h{font-size:clamp(38px,6vw,62px);font-weight:900;color:var(--navy);margin:6px 0 12px}
+.sec-p{color:var(--mut);font-size:18px;max-width:640px;line-height:1.5}
+
+/* reveal */
+.rv{opacity:0;transform:translateY(34px);transition:opacity .7s ease,transform .7s ease}
+.rv.in{opacity:1;transform:none}
+
+/* marcas */
+.brands{display:grid;grid-template-columns:1fr 1fr;gap:20px;margin-top:36px}
+@media(max-width:760px){.brands{grid-template-columns:1fr}}
+.bcard{position:relative;border-radius:24px;overflow:hidden;min-height:430px;color:#fff;display:flex;align-items:flex-end;box-shadow:0 20px 50px rgba(16,42,110,.18)}
+.bcard img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;transition:transform 1.2s}
+.bcard:hover img{transform:scale(1.07)}
+.bcard:after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,transparent 35%,rgba(10,28,77,.95))}
+.bcard .t{position:relative;z-index:2;padding:26px}
+.bcard h3{font-size:44px;font-weight:900}
+.bcard p{opacity:.92;margin-top:6px;font-size:16px;line-height:1.4}
+.tag{display:inline-block;background:var(--yel);color:var(--navy);font-family:"Barlow Condensed";font-weight:800;padding:4px 10px;border-radius:6px;text-transform:uppercase;font-size:13px;margin-bottom:10px;letter-spacing:1px}
+
+/* productos */
+.prods{display:grid;grid-template-columns:repeat(auto-fill,minmax(158px,1fr));gap:14px;margin-top:34px}
+.pc{background:var(--card);border-radius:var(--r);overflow:hidden;box-shadow:0 8px 26px rgba(16,42,110,.08);display:flex;flex-direction:column;transition:transform .25s,box-shadow .25s}
+.pc:hover{transform:translateY(-6px);box-shadow:0 18px 40px rgba(16,42,110,.16)}
+.pc .ph{aspect-ratio:4/5;background:#eef0f6;overflow:hidden;position:relative}
+.pc .ph img{width:100%;height:100%;object-fit:cover}
+.pc .sz{position:absolute;top:12px;left:12px;background:var(--navy);color:#fff;font-family:"Barlow Condensed";font-weight:800;padding:5px 10px;border-radius:8px;font-size:16px}
+.pc .bd{padding:16px;display:flex;flex-direction:column;gap:6px;flex:1}
+.pc h4{font-family:"Barlow Condensed";font-size:21px;overflow-wrap:anywhere;line-height:1;font-weight:800;text-transform:uppercase;color:var(--navy)}
+.pc .pr{font-family:"Barlow Condensed";font-size:26px;font-weight:900;color:var(--red)}
+.pc .pr small{font-size:15px;color:var(--mut);font-weight:600;text-decoration:line-through;margin-left:6px}
+.pc .nt{font-size:14px;color:var(--mut)}
+
+/* ofertas */
+.dark{background:var(--navy2);color:#fff;position:relative;overflow:hidden}
+.dark .sec-h{color:#fff}.dark .sec-p{color:rgba(255,255,255,.8)}
+.dark .kick{color:var(--yel)}
+.offers{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:18px;margin-top:34px}
+.of{border-radius:22px;padding:26px;position:relative;overflow:hidden;min-height:220px;display:flex;flex-direction:column;justify-content:flex-end}
+.of img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:.35;transition:opacity .4s,transform 1s}
+.of:hover img{opacity:.5;transform:scale(1.06)}
+.of>*:not(img){position:relative}
+.of.r{background:var(--red)}.of.y{background:var(--yel);color:var(--navy)}.of.n{background:#1b3d94}
+.of b{font-family:"Barlow Condensed";font-size:52px;font-weight:900;line-height:.9;text-transform:uppercase}
+.of h3{font-size:26px;font-weight:800;margin:8px 0 6px}
+.of p{font-size:15px;opacity:.92;line-height:1.4}
+
+/* rifa */
+.rifa{display:grid;grid-template-columns:1.05fr 1fr;gap:30px;align-items:start;margin-top:34px}
+@media(max-width:860px){.rifa{grid-template-columns:1fr}}
+.form{background:#fff;border-radius:24px;padding:26px;box-shadow:0 18px 50px rgba(16,42,110,.12)}
+.form label{display:block;font-weight:700;font-size:14px;color:var(--navy);margin:14px 0 6px;text-transform:uppercase;letter-spacing:.5px}
+.form input,.form select{width:100%;padding:14px;border:2px solid #dfe3ee;border-radius:12px;font:inherit;font-size:17px;background:#fafbfe;transition:border-color .2s}
+.form input:focus,.form select:focus{outline:none;border-color:var(--navy)}
+.seg{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.seg input{display:none}
+.seg label{margin:0;text-align:center;padding:13px;border:2px solid #dfe3ee;border-radius:12px;cursor:pointer;text-transform:none;font-size:16px;color:var(--ink)}
+.seg input:checked+label{border-color:var(--navy);background:var(--navy);color:#fff}
+.hd{display:flex;gap:10px;align-items:flex-start;margin-top:16px;font-size:13px;color:var(--mut);line-height:1.45}
+.hd input{width:22px;height:22px;flex:none;margin-top:2px}
+.form .btn{width:100%;margin-top:18px}
+.err{color:var(--red);font-weight:600;font-size:14px;margin-top:10px;min-height:18px}
+.ticket{position:relative;background:linear-gradient(135deg,var(--yel),#ffb400);color:var(--navy);border-radius:22px;padding:28px 26px;overflow:hidden}
+.ticket:before,.ticket:after{content:"";position:absolute;width:34px;height:34px;background:var(--bg);border-radius:50%;top:50%;margin-top:-17px}
+.ticket:before{left:-17px}.ticket:after{right:-17px}
+.ticket .no{font-family:"Barlow Condensed";font-size:64px;font-weight:900;letter-spacing:2px;line-height:1;margin:8px 0}
+.ticket .nm{font-weight:700;font-size:19px}
+.ticket .dash{border-top:3px dashed rgba(16,42,110,.35);margin:18px 0}
+.ticket small{display:block;font-size:13px;opacity:.85}
+.side-photo{border-radius:24px;overflow:hidden;position:relative;min-height:280px;margin-bottom:18px}
+.side-photo img{width:100%;height:100%;object-fit:cover;position:absolute;inset:0}
+.side-photo div{position:absolute;left:0;right:0;bottom:0;padding:20px;background:linear-gradient(transparent,rgba(10,28,77,.92));color:#fff}
+.side-photo h3{font-size:32px;font-weight:900}
+.steps{display:grid;gap:10px}
+.step{display:flex;gap:14px;align-items:center;background:#fff;border-radius:14px;padding:14px 16px;box-shadow:0 6px 18px rgba(16,42,110,.06)}
+.step b{font-family:"Barlow Condensed";font-size:30px;font-weight:900;color:var(--red);min-width:30px}
+
+/* cambio de bolsas */
+.swap{display:grid;grid-template-columns:1fr 1fr;gap:26px;align-items:center;margin-top:30px}
+@media(max-width:820px){.swap{grid-template-columns:1fr}}
+.swap .photo{border-radius:26px;overflow:hidden;aspect-ratio:4/3}
+.swap .photo img{width:100%;height:100%;object-fit:cover;animation:kb 18s ease-in-out infinite alternate}
+.calc{background:#fff;border-radius:24px;padding:26px;box-shadow:0 18px 50px rgba(16,42,110,.12)}
+.stepper{display:flex;align-items:center;gap:10px;margin:14px 0}
+.stepper button{width:56px;height:56px;border-radius:14px;background:var(--navy);color:#fff;font-size:30px;font-weight:700}
+.stepper input{flex:1;text-align:center;font-family:"Barlow Condensed";font-size:40px;font-weight:800;border:2px solid #dfe3ee;border-radius:14px;height:56px;width:100%}
+.result{background:var(--navy);color:#fff;border-radius:18px;padding:20px;text-align:center;margin-top:10px}
+.result b{font-family:"Barlow Condensed";font-size:62px;font-weight:900;color:var(--yel);display:block;line-height:1}
+.bar{height:12px;background:#e6e9f2;border-radius:10px;overflow:hidden;margin-top:12px}
+.bar i{display:block;height:100%;background:linear-gradient(90deg,var(--red),var(--yel));width:0;transition:width .4s}
+
+/* pedido tenderos */
+.order{display:grid;grid-template-columns:1.3fr 1fr;gap:24px;margin-top:30px;align-items:start}
+@media(max-width:860px){.order{grid-template-columns:1fr}}
+.ol{display:grid;gap:12px}
+.oi{display:flex;gap:14px;align-items:center;background:#fff;border-radius:16px;padding:10px;box-shadow:0 6px 18px rgba(16,42,110,.07)}
+.oi img{width:74px;height:74px;border-radius:12px;object-fit:cover;flex:none}
+.oi .n{flex:1;min-width:0}
+.oi .n b{font-family:"Barlow Condensed";font-size:21px;font-weight:800;text-transform:uppercase;color:var(--navy);display:block}
+.oi .n small{color:var(--mut);font-size:13px}
+.q{display:flex;align-items:center;gap:6px}
+.q button{width:40px;height:40px;border-radius:10px;background:#eef1f8;color:var(--navy);font-size:22px;font-weight:800}
+.q span{min-width:30px;text-align:center;font-family:"Barlow Condensed";font-size:24px;font-weight:800}
+.osum{position:sticky;top:80px}
+
+/* recetas */
+.rec{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:18px;margin-top:30px}
+.rc{background:#fff;border-radius:20px;overflow:hidden;box-shadow:0 8px 26px rgba(16,42,110,.08)}
+.rc .ph{height:170px;overflow:hidden}
+.rc .ph img{width:100%;height:100%;object-fit:cover;transition:transform 1s}
+.rc:hover .ph img{transform:scale(1.08)}
+.rc .bd{padding:18px}
+.rc h3{font-size:26px;font-weight:800;color:var(--navy)}
+.rc p{color:var(--mut);margin-top:8px;line-height:1.5;font-size:15px}
+.rc .tm{display:inline-block;margin-top:10px;font-family:"Barlow Condensed";font-weight:800;color:var(--red);text-transform:uppercase}
+
+/* cobertura + contacto */
+.zones{display:flex;flex-wrap:wrap;gap:10px;margin-top:22px}
+.zones span{font-family:"Barlow Condensed";font-weight:800;text-transform:uppercase;font-size:22px;padding:12px 20px;border-radius:40px;background:rgba(255,255,255,.1);border:1.5px solid rgba(255,255,255,.25);animation:fl 4s ease-in-out infinite}
+.zones span:nth-child(2){animation-delay:.5s}.zones span:nth-child(3){animation-delay:1s}.zones span:nth-child(4){animation-delay:1.5s}.zones span:nth-child(5){animation-delay:2s}
+@keyframes fl{50%{transform:translateY(-6px);background:rgba(255,204,0,.2)}}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:16px;margin-top:40px}
+.stat{border-left:4px solid var(--yel);padding:6px 0 6px 16px}
+.stat b{font-family:"Barlow Condensed";font-size:58px;font-weight:900;line-height:1;display:block}
+.stat small{opacity:.8;text-transform:uppercase;letter-spacing:1px;font-size:13px}
+.contact{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:14px;margin-top:30px}
+.ct{background:#fff;border-radius:16px;padding:20px;text-decoration:none;box-shadow:0 6px 18px rgba(16,42,110,.07);transition:transform .2s}
+.ct:hover{transform:translateY(-4px)}
+.ct small{display:block;color:var(--red);font-family:"Barlow Condensed";font-weight:800;text-transform:uppercase;letter-spacing:1px}
+.ct b{display:block;font-size:19px;margin-top:4px;color:var(--navy)}
+.share{display:grid;grid-template-columns:auto 1fr;gap:24px;align-items:center;background:#fff;border-radius:24px;padding:24px;margin-top:30px;box-shadow:0 18px 50px rgba(16,42,110,.1)}
+.share img{width:170px;height:170px}
+@media(max-width:560px){.share{grid-template-columns:1fr;text-align:center}.share img{margin:0 auto}}
+
+footer{background:var(--navy2);color:rgba(255,255,255,.8);text-align:center;padding:34px 18px 100px;font-size:14px;line-height:1.7}
+footer b{color:#fff}
+
+/* barra flotante */
+.fab{position:fixed;left:12px;right:12px;bottom:12px;z-index:60;display:none;gap:8px}
+.fab a{flex:1;padding:14px 8px;font-size:16px;border-radius:14px}
+@media(max-width:760px){.fab{display:flex}}
+.toast{position:fixed;left:50%;bottom:90px;transform:translateX(-50%) translateY(30px);background:var(--ink);color:#fff;padding:13px 20px;border-radius:12px;opacity:0;transition:.3s;z-index:90;font-weight:600;max-width:90vw;text-align:center}
+.toast.on{opacity:1;transform:translateX(-50%)}
+
+/* sorteo (admin) */
+#sorteo{display:none;position:fixed;inset:0;z-index:100;background:var(--navy2);color:#fff;overflow:auto;padding:30px 18px}
+#sorteo.on{display:block}
+#sorteo textarea{width:100%;min-height:160px;border-radius:14px;padding:14px;font:inherit;font-size:15px;margin:14px 0}
+.drum{font-family:"Barlow Condensed";font-size:clamp(48px,10vw,110px);font-weight:900;text-transform:uppercase;text-align:center;padding:40px 10px;color:var(--yel);min-height:200px;display:flex;align-items:center;justify-content:center;line-height:1}
+.drum.win{animation:pop .6s ease}
+@keyframes pop{50%{transform:scale(1.15)}}
+.confetti{position:fixed;top:-20px;width:10px;height:16px;z-index:101;animation:fall linear forwards}
+@keyframes fall{to{transform:translateY(110vh) rotate(720deg)}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+</head>
+<body>
+
+<!-- Formulario estático para que Netlify Forms registre las inscripciones a la rifa -->
+<form name="rifa-distrileco" data-netlify="true" netlify-honeypot="bot-field" hidden>
+  <input name="nombre"><input name="whatsapp"><input name="municipio"><input name="tipo"><input name="boleta"><input name="fecha"><input name="bot-field">
+</form>
+
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="#inicio"><img src="img/icon-192.png" alt="Distrileco"><span><b>DISTRILECO</b><small>ExpoCaucasia 2026</small></span></a>
+    <nav>
+      <a href="#ofertas" data-i="nOf">Ofertas</a>
+      <a href="#rifa" data-i="nRi">Rifa</a>
+      <a href="#bolsas" data-i="nBo">Bolsas</a>
+      <a href="#pedido" data-i="nPe">Pedidos</a>
+      <div class="lang"><button data-l="es" class="on">ES</button><button data-l="en">EN</button></div>
+    </nav>
+  </div>
+</header>
+
+<section class="hero" id="inicio" style="padding:0">
+  <div class="bg"></div>
+  <div class="wrap">
+    <span class="pill"><i class="live"></i><span id="liveTxt" data-i="live">En vivo en ExpoCaucasia</span></span>
+    <h1>Distrileco <span data-i="h1">en la Expo</span></h1>
+    <p class="lead" data-i="lead">Super Arroz y Arroz Vistahermosa con precios de feria, rifas, degustación y el cambio de bolsas por libras de arroz. Te esperamos en nuestro stand.</p>
+    <div class="cta">
+      <a class="btn red" href="#rifa" data-i="cta1">Participa en la rifa</a>
+      <a class="btn yel" href="#ofertas" data-i="cta2">Ver ofertas</a>
+      <button class="btn ghost" id="shareBtn" data-i="cta3">Compartir</button>
+      <button class="btn ghost" id="installBtn" hidden data-i="cta4">Instalar app</button>
+    </div>
+    <div class="clock" id="clock"></div>
+    <p class="hoy" id="hoy"></p>
+  </div>
+</section>
+
+<div class="ticker" aria-hidden="true"><div class="row" id="ticker"></div></div>
+
+<!-- MARCAS -->
+<section id="marcas">
+  <div class="wrap">
+    <p class="kick rv" data-i="k1">Nuestras marcas</p>
+    <h2 class="sec-h rv" data-i="t1">Arroz de la casa, desde 1984</h2>
+    <p class="sec-p rv" data-i="p1">Dos arroces empacados por Distrileco Caucasia para las mesas del Bajo Cauca, Córdoba, Nordeste, Urabá y Sucre.</p>
+    <div class="brands">
+      <article class="bcard rv"><img src="img/banner-superarroz.jpg" alt="Super Arroz" loading="lazy">
+        <div class="t"><span class="tag" data-i="b1t">Clasificado electrónicamente</span><h3>Super Arroz</h3><p data-i="b1p">"Entre lo bueno y lo mejor, Super Arroz es superior". Grano blanco, suelto y rendidor para el almuerzo de todos los días.</p></div></article>
+      <article class="bcard rv"><img src="img/banner-vistahermosa.jpg" alt="Arroz Vistahermosa" loading="lazy">
+        <div class="t"><span class="tag" data-i="b2t">Calidad corriente</span><h3>Arroz Vistahermosa</h3><p data-i="b2p">"En tus comidas date gusto con Vistahermosa". El arroz de confianza de la tienda del barrio, al mejor precio.</p></div></article>
+    </div>
+    <div class="prods" id="prods"></div>
+  </div>
+</section>
+
+<!-- OFERTAS -->
+<section class="dark" id="ofertas">
+  <div class="wrap">
+    <p class="kick rv" data-i="k2">Solo en la feria</p>
+    <h2 class="sec-h rv" data-i="t2">Ofertas de ExpoCaucasia</h2>
+    <p class="sec-p rv" data-i="p2">Pasa por el stand de Distrileco y aprovecha. Ofertas válidas durante la feria o hasta agotar existencias.</p>
+    <div class="offers" id="offers"></div>
+  </div>
+</section>
+
+<!-- RIFA -->
+<section id="rifa">
+  <div class="wrap">
+    <p class="kick rv" data-i="k3">Rifa Distrileco</p>
+    <h2 class="sec-h rv" data-i="t3">Saca tu boleta gratis</h2>
+    <p class="sec-p rv" data-i="p3">Inscríbete desde tu celular y recibe tu número al instante. Muéstralo en el stand.</p>
+    <div class="rifa">
+      <div>
+        <form class="form rv" id="rifaForm" novalidate>
+          <label for="fNom" data-i="fNom">Nombre completo</label>
+          <input id="fNom" autocomplete="name" required>
+          <label for="fWa" data-i="fWa">WhatsApp</label>
+          <input id="fWa" inputmode="numeric" autocomplete="tel" placeholder="3001234567" required>
+          <label for="fMun" data-i="fMun">Municipio</label>
+          <select id="fMun"></select>
+          <label data-i="fTipo">Usted es</label>
+          <div class="seg">
+            <input type="radio" name="tipo" id="tH" value="Hogar" checked><label for="tH" data-i="tH">Hogar</label>
+            <input type="radio" name="tipo" id="tT" value="Tienda / negocio"><label for="tT" data-i="tT">Tienda / negocio</label>
+          </div>
+          <div class="hd"><input type="checkbox" id="fHd"><span data-i="hd">Autorizo a Distrileco Caucasia S.A.S. a tratar mis datos (nombre, WhatsApp y municipio) solo para la rifa de ExpoCaucasia 2026 y para avisarme si gano, según la Ley 1581 de 2012. Puedo pedir que los borren en gerencia@distrileco.com.</span></div>
+          <button class="btn red" type="submit" data-i="fBtn">Quiero mi boleta</button>
+          <p class="err" id="fErr"></p>
+        </form>
+        <div id="ticketBox"></div>
+      </div>
+      <div>
+        <div class="side-photo rv"><img src="img/stand.jpg" alt="Stand Distrileco" loading="lazy"><div><h3 data-i="sp">Así nos encuentras</h3><p data-i="sp2">Busca los globos rojos y amarillos.</p></div></div>
+        <div class="steps">
+          <div class="step rv"><b>1</b><span data-i="s1">Llena el formulario con tu nombre y WhatsApp.</span></div>
+          <div class="step rv"><b>2</b><span data-i="s2">Guarda la captura de tu boleta.</span></div>
+          <div class="step rv"><b>3</b><span data-i="s3" id="s3">Pendiente del sorteo: te avisamos por WhatsApp si ganas.</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CAMBIO DE BOLSAS -->
+<section id="bolsas" style="background:#fff">
+  <div class="wrap">
+    <p class="kick rv" data-i="k4">Recicla y gana</p>
+    <h2 class="sec-h rv" data-i="t4">Cambia tus bolsas por libras de arroz</h2>
+    <p class="sec-p rv" data-i="p4">Trae al stand las bolsas vacías de Super Arroz y Arroz Vistahermosa y llévate arroz. Menos plástico en la calle, más arroz en tu mesa.</p>
+    <div class="swap">
+      <div class="photo rv"><img src="img/pacas.jpg" alt="Pacas de arroz" loading="lazy"></div>
+      <div class="calc rv">
+        <h3 style="font-size:30px;color:var(--navy)" data-i="cT">¿Cuántas bolsas tienes?</h3>
+        <div class="stepper"><button type="button" id="bm" aria-label="menos">−</button><input id="bq" type="number" min="0" value="10"><button type="button" id="bp" aria-label="más">+</button></div>
+        <div class="result" id="bRes"></div>
+        <div class="bar"><i id="bBar"></i></div>
+        <p class="nt" id="bNote" style="margin-top:12px;color:var(--mut);font-size:14px"></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PEDIDO TENDEROS -->
+<section id="pedido">
+  <div class="wrap">
+    <p class="kick rv" data-i="k5">Para tenderos y negocios</p>
+    <h2 class="sec-h rv" data-i="t5">Haz tu pedido desde la feria</h2>
+    <p class="sec-p rv" data-i="p5">Arma tu pedido y lo mandas directo por WhatsApp a Distrileco. Un asesor te confirma precio, entrega y forma de pago.</p>
+    <div class="order">
+      <div class="ol" id="ol"></div>
+      <div class="form osum">
+        <h3 style="font-size:30px;color:var(--navy)" data-i="oT">Tu pedido</h3>
+        <div id="oSum" style="margin:12px 0;color:var(--mut)"></div>
+        <label for="oNeg" data-i="oNeg">Nombre de la tienda o negocio</label><input id="oNeg">
+        <label for="oMun" data-i="fMun">Municipio</label><select id="oMun"></select>
+        <a class="btn wa" id="oBtn" href="#" data-i="oBtn">Enviar pedido por WhatsApp</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- RECETAS -->
+<section style="background:#fff">
+  <div class="wrap">
+    <p class="kick rv" data-i="k6">Date gusto</p>
+    <h2 class="sec-h rv" data-i="t6">Recetas de la casa</h2>
+    <div class="rec" id="rec"></div>
+  </div>
+</section>
+
+<!-- COBERTURA -->
+<section class="dark">
+  <div class="wrap">
+    <p class="kick rv" data-i="k7">Llegamos a tu tienda</p>
+    <h2 class="sec-h rv" data-i="t7">Cobertura Distrileco</h2>
+    <div class="zones"><span>Bajo Cauca</span><span>Córdoba</span><span>Nordeste</span><span>Urabá</span><span>Sucre</span></div>
+    <div class="stats">
+      <div class="stat rv"><b data-c="1984" data-n="0">1984</b><small data-i="st1">Año de fundación</small></div>
+      <div class="stat rv"><b data-c="5">5</b><small data-i="st2">Regiones atendidas</small></div>
+      <div class="stat rv"><b data-c="2">2</b><small data-i="st3">Marcas propias de arroz</small></div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACTO -->
+<section id="contacto">
+  <div class="wrap">
+    <p class="kick rv" data-i="k8">Contacto</p>
+    <h2 class="sec-h rv" data-i="t8">Hablemos</h2>
+    <div class="contact">
+      <a class="ct rv" id="ctWa" target="_blank" rel="noopener"><small>WhatsApp</small><b>311 770 0431</b></a>
+      <a class="ct rv" href="tel:+576048393001"><small>PBX</small><b>604 839 3001</b></a>
+      <a class="ct rv" href="mailto:gerencia@distrileco.com"><small>Email</small><b>gerencia@distrileco.com</b></a>
+      <a class="ct rv" href="https://www.google.com/maps/search/?api=1&query=Carrera+2+Diagonal+25+%232-25+Caucasia+Antioquia" target="_blank" rel="noopener"><small data-i="dir">Dirección</small><b>Carrera 2 con Diagonal 25 #2-25, Caucasia</b></a>
+      <a class="ct rv" href="https://www.distrileco.com" target="_blank" rel="noopener"><small>Web</small><b>www.distrileco.com</b></a>
+    </div>
+    <div class="share rv">
+      <img src="img/qr.png" alt="QR">
+      <div><h3 style="font-size:34px;color:var(--navy)" data-i="shT">Pásala a tus vecinos</h3>
+        <p class="sec-p" style="margin:8px 0 14px" data-i="shP">Escanea el código o comparte el enlace para que más gente llegue al stand.</p>
+        <p class="cond" style="font-size:22px;font-weight:800;color:var(--red);text-transform:none">distrileco-expocaucasia.netlify.app</p>
+        <button class="btn navy" id="shareBtn2" style="margin-top:12px" data-i="cta3">Compartir</button></div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <b>Distrileco Caucasia S.A.S.</b> · NIT 800183056-9 · Caucasia, Antioquia<br>
+  <span data-i="ft">Precios y ofertas válidos durante ExpoCaucasia 2026 o hasta agotar existencias.</span><br>
+  Desarrollada por <b>Vibras Positivas HM</b> — Derechos de Autor Reservados
+</footer>
+
+<div class="fab"><a class="btn red" href="#rifa" data-i="nRi">Rifa</a><a class="btn yel" href="#ofertas" data-i="nOf">Ofertas</a><a class="btn wa" id="fabWa" target="_blank" rel="noopener">WhatsApp</a></div>
+<div class="toast" id="toast"></div>
+
+<!-- SORTEO EN VIVO (abrir con ?sorteo=1) -->
+<div id="sorteo">
+  <div class="wrap">
+    <h2 class="sec-h" style="color:#fff">Sorteo en vivo · Distrileco</h2>
+    <p style="opacity:.85">Pega la lista de participantes (exportada de Netlify Forms en CSV, o un nombre por línea). Cada boleta participa una sola vez.</p>
+    <textarea id="sList" placeholder="DLX-48213 · María Pérez&#10;DLX-11920 · Tienda La Esquina"></textarea>
+    <div style="display:flex;gap:10px;flex-wrap:wrap"><button class="btn yel" id="sGo">Sortear</button><button class="btn ghost" id="sClose">Cerrar</button></div>
+    <div class="drum" id="drum">¿Quién gana?</div>
+    <p id="sInfo" style="text-align:center;opacity:.8"></p>
+  </div>
+</div>
+
+<script>
+/* ================== CONFIGURACIÓN (edítala aquí) ================== */
+const CONFIG = {
+  url: "https://distrileco-expocaucasia.netlify.app",
+  whatsapp: "573117700431",          // WhatsApp que recibe pedidos y consultas
+  expoDias: ["2026-11-06","2026-11-07"],
+  // Precios de feria: pon el número (ej. 2900) o deja null para mostrar "Precio de feria en el stand"
+  productos: [
+    {id:"sa500",  marca:"Super Arroz",        tam:"500 g",  img:"img/estante.jpg",   precio:null, antes:null},
+    {id:"sa2500", marca:"Super Arroz",        tam:"2.500 g",img:"img/super-2500.jpg",precio:null, antes:null},
+    {id:"sa5000", marca:"Super Arroz",        tam:"5.000 g",img:"img/super-5000.jpg",precio:null, antes:null},
+    {id:"vh500",  marca:"Arroz Vistahermosa", tam:"500 g",  img:"img/pacas.jpg",     precio:null, antes:null},
+    {id:"vh5000", marca:"Arroz Vistahermosa", tam:"5.000 g",img:"img/vista-5000.jpg",precio:null, antes:null}
+  ],
+  // ¿Cuántas bolsas vacías = 1 libra de arroz? Pon el número real (ej. 10). Si es null se explica en el stand.
+  bolsasPorLibra: null,
+  // Hora del sorteo, ej. "7 de noviembre, 5:00 p. m." (null = te avisamos por WhatsApp)
+  sorteo: null,
+  municipios: ["Caucasia","Cáceres","Tarazá","Valdivia","El Bagre","Zaragoza","Nechí","Segovia","Remedios","Montelíbano","Planeta Rica","Montería","La Apartada","Ayapel","Puerto Libertador","Sahagún","Sincelejo","Otro"]
+};
+/* ================================================================== */
+
+const T = {
+ es:{nOf:"Ofertas",nRi:"Rifa",nBo:"Bolsas",nPe:"Pedidos",live:"En vivo en ExpoCaucasia",h1:"en la Expo",
+ lead:"Super Arroz y Arroz Vistahermosa con precios de feria, rifas, degustación y el cambio de bolsas por libras de arroz. Te esperamos en nuestro stand.",
+ cta1:"Participa en la rifa",cta2:"Ver ofertas",cta3:"Compartir",cta4:"Instalar app",
+ k1:"Nuestras marcas",t1:"Arroz de la casa, desde 1984",p1:"Dos arroces empacados por Distrileco Caucasia para las mesas del Bajo Cauca, Córdoba, Nordeste, Urabá y Sucre.",
+ b1t:"Clasificado electrónicamente",b1p:"\"Entre lo bueno y lo mejor, Super Arroz es superior\". Grano blanco, suelto y rendidor para el almuerzo de todos los días.",
+ b2t:"Calidad corriente",b2p:"\"En tus comidas date gusto con Vistahermosa\". El arroz de confianza de la tienda del barrio, al mejor precio.",
+ k2:"Solo en la feria",t2:"Ofertas de ExpoCaucasia",p2:"Pasa por el stand de Distrileco y aprovecha. Ofertas válidas durante la feria o hasta agotar existencias.",
+ k3:"Rifa Distrileco",t3:"Saca tu boleta gratis",p3:"Inscríbete desde tu celular y recibe tu número al instante. Muéstralo en el stand.",
+ fNom:"Nombre completo",fWa:"WhatsApp",fMun:"Municipio",fTipo:"Usted es",tH:"Hogar",tT:"Tienda / negocio",
+ hd:"Autorizo a Distrileco Caucasia S.A.S. a tratar mis datos (nombre, WhatsApp y municipio) solo para la rifa de ExpoCaucasia 2026 y para avisarme si gano, según la Ley 1581 de 2012. Puedo pedir que los borren en gerencia@distrileco.com.",
+ fBtn:"Quiero mi boleta",sp:"Así nos encuentras",sp2:"Busca los globos rojos y amarillos.",
+ s1:"Llena el formulario con tu nombre y WhatsApp.",s2:"Guarda la captura de tu boleta.",s3:"Pendiente del sorteo: te avisamos por WhatsApp si ganas.",
+ k4:"Recicla y gana",t4:"Cambia tus bolsas por libras de arroz",p4:"Trae al stand las bolsas vacías de Super Arroz y Arroz Vistahermosa y llévate arroz. Menos plástico en la calle, más arroz en tu mesa.",
+ cT:"¿Cuántas bolsas tienes?",k5:"Para tenderos y negocios",t5:"Haz tu pedido desde la feria",p5:"Arma tu pedido y lo mandas directo por WhatsApp a Distrileco. Un asesor te confirma precio, entrega y forma de pago.",
+ oT:"Tu pedido",oNeg:"Nombre de la tienda o negocio",oBtn:"Enviar pedido por WhatsApp",k6:"Date gusto",t6:"Recetas de la casa",
+ k7:"Llegamos a tu tienda",t7:"Cobertura Distrileco",st1:"Año de fundación",st2:"Regiones atendidas",st3:"Marcas propias de arroz",
+ k8:"Contacto",t8:"Hablemos",dir:"Dirección",shT:"Pásala a tus vecinos",shP:"Escanea el código o comparte el enlace para que más gente llegue al stand.",
+ ft:"Precios y ofertas válidos durante ExpoCaucasia 2026 o hasta agotar existencias.",
+ days:"Días",hrs:"Horas",min:"Min",sec:"Seg",today:"Hoy",
+ before:"Faltan para ExpoCaucasia 2026",d1:"Hoy es el día 1 de ExpoCaucasia · Estamos en el stand",d2:"Hoy es el último día de ExpoCaucasia · ¡No te quedes sin tu boleta!",after:"ExpoCaucasia terminó. ¡Gracias por visitarnos! Sigue pidiendo por WhatsApp.",
+ liveBefore:"Muy pronto en ExpoCaucasia",liveAfter:"Gracias por venir a la Expo",
+ feria:"Precio de feria en el stand",packs:"paquetes",ask:"Pregunta el precio",
+ errNom:"Escribe tu nombre completo.",errWa:"Escribe un WhatsApp de 10 dígitos que empiece por 3.",errHd:"Debes aceptar el tratamiento de datos para participar.",
+ tkT:"Tu boleta Distrileco",tkS:"Muestra esta boleta en el stand. Guarda una captura.",tkWa:"Recibir copia en mi WhatsApp",tkNew:"Inscribir a otra persona",
+ sent:"Boleta registrada",already:"Ya tienes boleta en este celular",
+ libras:"libras de arroz",bAsk:"La equivalencia exacta te la damos en el stand. Trae tus bolsas limpias y dobladas.",bOk:"bolsas = 1 libra. Trae tus bolsas limpias y dobladas.",bFalta:"Te faltan",bPara:"bolsas para la siguiente libra",
+ oEmpty:"Agrega productos con el botón +.",oNeed:"Agrega al menos un producto.",oTot:"Total",shareTxt:"Visita el stand de Distrileco en ExpoCaucasia 2026: ofertas en Super Arroz y Arroz Vistahermosa, rifas y cambio de bolsas por arroz.",copied:"Enlace copiado",
+ drawAt:"Sorteo:"},
+ en:{nOf:"Deals",nRi:"Raffle",nBo:"Bags",nPe:"Orders",live:"Live at ExpoCaucasia",h1:"at the Expo",
+ lead:"Super Arroz and Arroz Vistahermosa at fair prices, raffles, free tasting and empty bags traded for pounds of rice. Come see us at our booth.",
+ cta1:"Join the raffle",cta2:"See deals",cta3:"Share",cta4:"Install app",
+ k1:"Our brands",t1:"Our own rice, since 1984",p1:"Two rice brands packed by Distrileco Caucasia for families across Bajo Cauca, Córdoba, Nordeste, Urabá and Sucre.",
+ b1t:"Electronically sorted",b1p:"\"Between good and best, Super Arroz is superior.\" White, fluffy, high-yield grain for everyday lunch.",
+ b2t:"Standard quality",b2p:"\"Treat yourself at every meal with Vistahermosa.\" The trusted rice of the neighborhood store, at the best price.",
+ k2:"Fair only",t2:"ExpoCaucasia deals",p2:"Stop by the Distrileco booth. Deals valid during the fair or while supplies last.",
+ k3:"Distrileco raffle",t3:"Get your free ticket",p3:"Sign up from your phone and get your number instantly. Show it at the booth.",
+ fNom:"Full name",fWa:"WhatsApp",fMun:"Town",fTipo:"You are",tH:"Household",tT:"Store / business",
+ hd:"I authorize Distrileco Caucasia S.A.S. to process my data (name, WhatsApp and town) only for the ExpoCaucasia 2026 raffle and to notify me if I win, under Colombian Law 1581 of 2012. I can request deletion at gerencia@distrileco.com.",
+ fBtn:"Get my ticket",sp:"How to find us",sp2:"Look for the red and yellow balloons.",
+ s1:"Fill in the form with your name and WhatsApp.",s2:"Take a screenshot of your ticket.",s3:"Wait for the draw: we'll text you on WhatsApp if you win.",
+ k4:"Recycle and win",t4:"Trade your bags for pounds of rice",p4:"Bring empty Super Arroz and Arroz Vistahermosa bags to the booth and take rice home. Less plastic on the street, more rice on your table.",
+ cT:"How many bags do you have?",k5:"For store owners",t5:"Place your order at the fair",p5:"Build your order and send it straight to Distrileco on WhatsApp. A sales rep will confirm price, delivery and payment.",
+ oT:"Your order",oNeg:"Store or business name",oBtn:"Send order on WhatsApp",k6:"Treat yourself",t6:"House recipes",
+ k7:"We reach your store",t7:"Distrileco coverage",st1:"Founded",st2:"Regions served",st3:"Own rice brands",
+ k8:"Contact",t8:"Let's talk",dir:"Address",shT:"Pass it on",shP:"Scan the code or share the link so more people come to the booth.",
+ ft:"Prices and deals valid during ExpoCaucasia 2026 or while supplies last.",
+ days:"Days",hrs:"Hours",min:"Min",sec:"Sec",today:"Today",
+ before:"Countdown to ExpoCaucasia 2026",d1:"Today is day 1 of ExpoCaucasia · We're at the booth",d2:"Today is the last day of ExpoCaucasia · Get your ticket!",after:"ExpoCaucasia is over. Thanks for visiting! Keep ordering on WhatsApp.",
+ liveBefore:"Coming soon to ExpoCaucasia",liveAfter:"Thanks for coming to the Expo",
+ feria:"Fair price at the booth",packs:"packs",ask:"Ask for price",
+ errNom:"Please enter your full name.",errWa:"Enter a 10-digit WhatsApp number starting with 3.",errHd:"You must accept the data policy to take part.",
+ tkT:"Your Distrileco ticket",tkS:"Show this ticket at the booth. Take a screenshot.",tkWa:"Send a copy to my WhatsApp",tkNew:"Sign up someone else",
+ sent:"Ticket registered",already:"You already have a ticket on this phone",
+ libras:"pounds of rice",bAsk:"We'll tell you the exact exchange at the booth. Bring your bags clean and folded.",bOk:"bags = 1 pound. Bring your bags clean and folded.",bFalta:"You need",bPara:"more bags for the next pound",
+ oEmpty:"Add products with the + button.",oNeed:"Add at least one product.",oTot:"Total",shareTxt:"Visit the Distrileco booth at ExpoCaucasia 2026: deals on Super Arroz and Arroz Vistahermosa, raffles and bags traded for rice.",copied:"Link copied",
+ drawAt:"Draw:"}
+};
+let L = (()=>{try{return localStorage.getItem("dlx-lang")||"es"}catch(e){return "es"}})();
+const t = k => (T[L]&&T[L][k])||T.es[k]||k;
+const $ = s=>document.querySelector(s), $$ = s=>[...document.querySelectorAll(s)];
+const fmt = n => "$"+Number(n).toLocaleString("es-CO");
+function toast(m){const e=$("#toast");e.textContent=m;e.classList.add("on");clearTimeout(e._t);e._t=setTimeout(()=>e.classList.remove("on"),2600)}
+
+const OFFERS = {
+ es:[{c:"r",b:"Precios",h:"de feria",p:"Super Arroz y Vistahermosa en todas sus presentaciones con precio especial de ExpoCaucasia.",img:"img/super-5000.jpg"},
+     {c:"y",b:"Rifas",h:"en el stand",p:"Inscríbete gratis y participa por premios Distrileco. Una boleta por persona.",img:"img/banner-superarroz.jpg"},
+     {c:"n",b:"Bolsas",h:"por libras",p:"Cambia tus bolsas vacías de nuestras marcas por libras de arroz.",img:"img/pacas.jpg"},
+     {c:"r",b:"Prueba",h:"degustación",p:"Prueba Super Arroz recién hecho en el stand y compruébalo tú mismo.",img:"img/stand.jpg"}],
+ en:[{c:"r",b:"Fair",h:"prices",p:"Super Arroz and Vistahermosa in every size at a special ExpoCaucasia price.",img:"img/super-5000.jpg"},
+     {c:"y",b:"Raffles",h:"at the booth",p:"Sign up for free and win Distrileco prizes. One ticket per person.",img:"img/banner-superarroz.jpg"},
+     {c:"n",b:"Bags",h:"for pounds",p:"Trade your empty bags of our brands for pounds of rice.",img:"img/pacas.jpg"},
+     {c:"r",b:"Taste",h:"free tasting",p:"Try freshly cooked Super Arroz at the booth and see for yourself.",img:"img/stand.jpg"}]
+};
+const RECIPES = {
+ es:[{h:"Arroz con coco",m:"40 min",p:"Sofríe la panela con el aceite de coco hasta caramelizar, agrega leche de coco y agua, sal y Super Arroz. Tapa a fuego bajo hasta que seque.",img:"img/super-2500.jpg"},
+     {h:"Arroz atollado",m:"50 min",p:"Sofrito de cebolla, tomate y ajo, pollo y cerdo en trozos, papa criolla, caldo y Arroz Vistahermosa. Debe quedar húmedo y espeso.",img:"img/vista-5000.jpg"},
+     {h:"Arroz blanco perfecto",m:"25 min",p:"Una taza de arroz por una y media de agua, sal y un chorrito de aceite. Hierve destapado, luego tapa a fuego bajo 15 minutos y no lo revuelvas.",img:"img/estante.jpg"}],
+ en:[{h:"Coconut rice",m:"40 min",p:"Caramelize panela in coconut oil, add coconut milk and water, salt and Super Arroz. Cover on low heat until dry.",img:"img/super-2500.jpg"},
+     {h:"Arroz atollado",m:"50 min",p:"Onion, tomato and garlic base, chicken and pork pieces, yellow potatoes, broth and Arroz Vistahermosa. It should be moist and thick.",img:"img/vista-5000.jpg"},
+     {h:"Perfect white rice",m:"25 min",p:"One cup of rice to one and a half cups of water, salt and a splash of oil. Boil uncovered, then cover on low for 15 minutes without stirring.",img:"img/estante.jpg"}]
+};
+
+/* ---------- render ---------- */
+function applyLang(){
+  document.documentElement.lang=L;
+  $$("[data-i]").forEach(e=>{const v=t(e.dataset.i); if(v) e.textContent=v});
+  $$(".lang button").forEach(b=>b.classList.toggle("on",b.dataset.l===L));
+  if(CONFIG.sorteo) $("#s3").textContent=t("drawAt")+" "+CONFIG.sorteo+". "+(L==="es"?"Te avisamos por WhatsApp si ganas.":"We'll text you if you win.");
+  renderTicker();renderProds();renderOffers();renderRec();renderOrder();calcBags();tick();renderTicket();
+}
+function renderTicker(){
+  const items=L==="es"?["Super Arroz precio de feria","Arroz Vistahermosa precio de feria","Rifas gratis en el stand","Cambia bolsas por libras de arroz","Degustación","Pedidos para tenderos","Distrileco desde 1984"]
+   :["Super Arroz fair prices","Arroz Vistahermosa fair prices","Free raffles at the booth","Bags for pounds of rice","Free tasting","Orders for store owners","Distrileco since 1984"];
+  const h=items.map(x=>`<span>${x}</span>`).join(""); $("#ticker").innerHTML=h+h;
+}
+function priceHTML(p){return p.precio?`<span class="pr">${fmt(p.precio)}${p.antes?`<small>${fmt(p.antes)}</small>`:""}</span>`:`<span class="pr" style="font-size:19px">${t("feria")}</span>`}
+function renderProds(){
+  $("#prods").innerHTML=CONFIG.productos.map(p=>`<div class="pc rv in"><div class="ph"><img src="${p.img}" alt="${p.marca} ${p.tam}" loading="lazy"><span class="sz">${p.tam}</span></div><div class="bd"><h4>${p.marca}</h4>${priceHTML(p)}</div></div>`).join("");
+}
+function renderOffers(){$("#offers").innerHTML=OFFERS[L].map(o=>`<div class="of ${o.c} rv in"><img src="${o.img}" alt="" loading="lazy"><b>${o.b}</b><h3>${o.h}</h3><p>${o.p}</p></div>`).join("")}
+function renderRec(){$("#rec").innerHTML=RECIPES[L].map(r=>`<div class="rc rv in"><div class="ph"><img src="${r.img}" alt="${r.h}" loading="lazy"></div><div class="bd"><h3>${r.h}</h3><p>${r.p}</p><span class="tm">${r.m}</span></div></div>`).join("")}
+["#fMun","#oMun"].forEach(s=>$(s).innerHTML=CONFIG.municipios.map(m=>`<option>${m}</option>`).join(""));
+
+/* ---------- reloj y estado de la Expo (hora real de Colombia) ---------- */
+function bogotaParts(){
+  const p=new Intl.DateTimeFormat("en-CA",{timeZone:"America/Bogota",year:"numeric",month:"2-digit",day:"2-digit",hour:"2-digit",minute:"2-digit",second:"2-digit",hour12:false}).formatToParts(new Date());
+  const o={};p.forEach(x=>o[x.type]=x.value);return o;
+}
+function tick(){
+  const o=bogotaParts(), today=`${o.year}-${o.month}-${o.day}`;
+  const [d1,d2]=CONFIG.expoDias; let html="",msg="",live=t("live");
+  const nowMs=Date.now(), startMs=Date.parse(d1+"T08:00:00-05:00"), endMs=Date.parse(d2+"T23:59:59-05:00");
+  const target = nowMs<startMs?startMs:endMs; let diff=Math.max(0,target-nowMs);
+  const D=Math.floor(diff/864e5),H=Math.floor(diff/36e5)%24,M=Math.floor(diff/6e4)%60,S=Math.floor(diff/1e3)%60;
+  if(nowMs<startMs){msg=t("before");live=t("liveBefore")}
+  else if(today===d1){msg=t("d1")}
+  else if(today===d2){msg=t("d2")}
+  else if(nowMs>endMs){msg=t("after");live=t("liveAfter")}
+  const clockTime=new Intl.DateTimeFormat(L==="es"?"es-CO":"en-US",{timeZone:"America/Bogota",hour:"numeric",minute:"2-digit",hour12:true}).format(new Date());
+  if(nowMs<=endMs){
+    const pad=n=>String(n).padStart(2,"0");
+    html=(D?`<div><b>${D}</b><small>${t("days")}</small></div>`:"")+`<div><b>${pad(H)}</b><small>${t("hrs")}</small></div><div><b>${pad(M)}</b><small>${t("min")}</small></div><div><b>${pad(S)}</b><small>${t("sec")}</small></div>`;
+    if(nowMs>=startMs) msg+= L==="es"?" · Quedan para el cierre:":" · Time left:";
+  }
+  $("#clock").innerHTML=html; $("#hoy").textContent=`${msg}  ·  ${clockTime} (Colombia)`; $("#liveTxt").textContent=live;
+}
+setInterval(tick,1000);
+
+/* ---------- rifa ---------- */
+const LS={get(k){try{return JSON.parse(localStorage.getItem(k))}catch(e){return null}},set(k,v){try{localStorage.setItem(k,JSON.stringify(v))}catch(e){}}};
+function renderTicket(){
+  const tk=LS.get("dlx-ticket"), box=$("#ticketBox"), form=$("#rifaForm");
+  if(!tk){box.innerHTML="";form.style.display="";return}
+  form.style.display="none";
+  const msg=encodeURIComponent(`${t("tkT")}: ${tk.no}\n${tk.nombre} · ${tk.municipio}\nExpoCaucasia 2026 · ${CONFIG.url}`);
+  box.innerHTML=`<div class="ticket rv in"><small>${t("tkT")} · ExpoCaucasia 2026</small><div class="no">${tk.no}</div><div class="nm">${tk.nombre}</div><small>${tk.municipio} · ${tk.tipo} · ${tk.fecha}</small><div class="dash"></div><small>${t("tkS")}</small></div>
+  <div style="display:grid;gap:10px;margin-top:14px"><a class="btn wa" target="_blank" rel="noopener" href="https://wa.me/57${tk.wa}?text=${msg}">${t("tkWa")}</a><button class="btn navy" id="tkNew">${t("tkNew")}</button></div>`;
+  $("#tkNew").onclick=()=>{LS.set("dlx-ticket",null);try{localStorage.removeItem("dlx-ticket")}catch(e){};renderTicket();$("#fNom").focus()};
+}
+$("#rifaForm").addEventListener("submit",async e=>{
+  e.preventDefault(); const err=$("#fErr"); err.textContent="";
+  const nombre=$("#fNom").value.trim().replace(/\s+/g," "), wa=$("#fWa").value.replace(/\D/g,"").replace(/^57/,"");
+  if(nombre.split(" ").length<2||nombre.length<5) return err.textContent=t("errNom");
+  if(!/^3\d{9}$/.test(wa)) return err.textContent=t("errWa");
+  if(!$("#fHd").checked) return err.textContent=t("errHd");
+  const no="DLX-"+String(Math.floor(10000+Math.random()*90000));
+  const fecha=new Intl.DateTimeFormat("es-CO",{timeZone:"America/Bogota",dateStyle:"short",timeStyle:"short"}).format(new Date());
+  const tk={no,nombre,wa,municipio:$("#fMun").value,tipo:document.querySelector('input[name=tipo]:checked').value,fecha};
+  const btn=e.submitter||$("#rifaForm .btn"); btn.disabled=true;
+  try{
+    await fetch("/",{method:"POST",headers:{"Content-Type":"application/x-www-form-urlencoded"},
+      body:new URLSearchParams({"form-name":"rifa-distrileco",nombre,whatsapp:wa,municipio:tk.municipio,tipo:tk.tipo,boleta:no,fecha}).toString()});
+  }catch(x){ /* sin señal: la boleta queda en el celular y se reintenta */ LS.set("dlx-pend",tk) }
+  btn.disabled=false; LS.set("dlx-ticket",tk); renderTicket(); toast(t("sent")); confetti(60);
+  $("#ticketBox").scrollIntoView({behavior:"smooth",block:"center"});
+});
+// reintento si se inscribió sin señal
+window.addEventListener("online",()=>{const p=LS.get("dlx-pend");if(!p)return;
+  fetch("/",{method:"POST",headers:{"Content-Type":"application/x-www-form-urlencoded"},body:new URLSearchParams({"form-name":"rifa-distrileco",nombre:p.nombre,whatsapp:p.wa,municipio:p.municipio,tipo:p.tipo,boleta:p.no,fecha:p.fecha}).toString()}).then(()=>{try{localStorage.removeItem("dlx-pend")}catch(e){}})});
+
+/* ---------- bolsas ---------- */
+function calcBags(){
+  const n=Math.max(0,parseInt($("#bq").value)||0), r=CONFIG.bolsasPorLibra;
+  if(r){const lb=Math.floor(n/r), rest=n%r;
+    $("#bRes").innerHTML=`<b>${lb}</b>${t("libras")}`;
+    $("#bBar").style.width=(rest/r*100)+"%";
+    $("#bNote").textContent=`${r} ${t("bOk")} `+(rest?`${t("bFalta")} ${r-rest} ${t("bPara")}.`:"");
+  }else{
+    $("#bRes").innerHTML=`<b>${n}</b>${L==="es"?"bolsas para cambiar":"bags to trade"}`;
+    $("#bBar").style.width=Math.min(100,n*5)+"%"; $("#bNote").textContent=t("bAsk");
+  }
+}
+$("#bq").oninput=calcBags; $("#bm").onclick=()=>{$("#bq").value=Math.max(0,(+$("#bq").value||0)-1);calcBags()}; $("#bp").onclick=()=>{$("#bq").value=(+$("#bq").value||0)+1;calcBags()};
+
+/* ---------- pedido tenderos ---------- */
+const cart=LS.get("dlx-cart")||{};
+function renderOrder(){
+  $("#ol").innerHTML=CONFIG.productos.map(p=>`<div class="oi"><img src="${p.img}" alt=""><div class="n"><b>${p.marca} ${p.tam}</b><small>${p.precio?fmt(p.precio):t("ask")}</small></div><div class="q"><button data-m="${p.id}" aria-label="-">−</button><span>${cart[p.id]||0}</span><button data-p="${p.id}" aria-label="+">+</button></div></div>`).join("");
+  $$("#ol [data-p]").forEach(b=>b.onclick=()=>{cart[b.dataset.p]=(cart[b.dataset.p]||0)+1;LS.set("dlx-cart",cart);renderOrder()});
+  $$("#ol [data-m]").forEach(b=>b.onclick=()=>{cart[b.dataset.m]=Math.max(0,(cart[b.dataset.m]||0)-1);LS.set("dlx-cart",cart);renderOrder()});
+  const items=CONFIG.productos.filter(p=>cart[p.id]);
+  let tot=0; items.forEach(p=>{if(p.precio)tot+=p.precio*cart[p.id]});
+  $("#oSum").innerHTML=items.length?items.map(p=>`<div style="display:flex;justify-content:space-between;padding:4px 0;border-bottom:1px dashed #dfe3ee"><span>${cart[p.id]} × ${p.marca} ${p.tam}</span><b>${p.precio?fmt(p.precio*cart[p.id]):""}</b></div>`).join("")+(tot?`<div style="display:flex;justify-content:space-between;padding-top:8px;font-size:20px;color:var(--navy)"><b>${t("oTot")}</b><b>${fmt(tot)}</b></div>`:""):t("oEmpty");
+}
+$("#oBtn").onclick=e=>{
+  e.preventDefault(); const items=CONFIG.productos.filter(p=>cart[p.id]); if(!items.length) return toast(t("oNeed"));
+  const lines=items.map(p=>`- ${cart[p.id]} x ${p.marca} ${p.tam}`).join("\n");
+  const txt=`Hola Distrileco, pedido desde ExpoCaucasia 2026:\n${lines}\nNegocio: ${$("#oNeg").value||"-"}\nMunicipio: ${$("#oMun").value}`;
+  window.open(`https://wa.me/${CONFIG.whatsapp}?text=${encodeURIComponent(txt)}`,"_blank");
+};
+const waGen=`https://wa.me/${CONFIG.whatsapp}?text=${encodeURIComponent("Hola Distrileco, los vi en ExpoCaucasia 2026 y quiero información.")}`;
+$("#ctWa").href=waGen; $("#fabWa").href=waGen;
+
+/* ---------- compartir / instalar ---------- */
+async function share(){const d={title:"Distrileco en ExpoCaucasia 2026",text:t("shareTxt"),url:CONFIG.url};
+  if(navigator.share){try{await navigator.share(d)}catch(e){}}else{try{await navigator.clipboard.writeText(CONFIG.url);toast(t("copied"))}catch(e){window.open("https://wa.me/?text="+encodeURIComponent(d.text+" "+d.url))}}}
+$("#shareBtn").onclick=share; $("#shareBtn2").onclick=share;
+let dp; window.addEventListener("beforeinstallprompt",e=>{e.preventDefault();dp=e;$("#installBtn").hidden=false});
+$("#installBtn").onclick=async()=>{if(!dp)return;dp.prompt();await dp.userChoice;dp=null;$("#installBtn").hidden=true};
+$$(".lang button").forEach(b=>b.onclick=()=>{L=b.dataset.l;try{localStorage.setItem("dlx-lang",L)}catch(e){};applyLang()});
+
+/* ---------- animaciones ---------- */
+const io=new IntersectionObserver(es=>es.forEach(en=>{if(en.isIntersecting){en.target.classList.add("in");
+  const c=en.target.querySelector("[data-c]"); if(c&&!c._d){c._d=1;const to=+c.dataset.c,from=to>1000?1900:0,st=performance.now();
+    (function a(n){const k=Math.min(1,(n-st)/1200),e=1-Math.pow(1-k,3);c.textContent=Math.round(from+(to-from)*e);if(k<1)requestAnimationFrame(a)})(st)}
+  io.unobserve(en.target)}}),{threshold:.15});
+function watch(){$$(".rv:not(.in)").forEach(e=>io.observe(e))}
+function confetti(n){const cs=["#ce1126","#ffcc00","#43b02a","#ff7a00","#102a6e"];for(let i=0;i<n;i++){const c=document.createElement("i");c.className="confetti";c.style.left=Math.random()*100+"vw";c.style.background=cs[i%5];c.style.animationDuration=(2+Math.random()*2)+"s";c.style.animationDelay=Math.random()*.5+"s";document.body.appendChild(c);setTimeout(()=>c.remove(),4600)}}
+
+/* ---------- sorteo en vivo (?sorteo=1) ---------- */
+if(new URLSearchParams(location.search).get("sorteo")==="1"){$("#sorteo").classList.add("on")}
+$("#sClose").onclick=()=>$("#sorteo").classList.remove("on");
+$("#sGo").onclick=()=>{
+  let rows=$("#sList").value.split(/\r?\n/).map(s=>s.trim()).filter(Boolean);
+  // si es CSV de Netlify, toma boleta + nombre
+  if(rows[0]&&/nombre/i.test(rows[0])&&rows[0].includes(",")){const hd=rows[0].split(",").map(h=>h.replace(/"/g,"").trim().toLowerCase());
+    const iN=hd.indexOf("nombre"),iB=hd.indexOf("boleta"),iW=hd.indexOf("whatsapp");const seen=new Set();
+    rows=rows.slice(1).map(r=>r.match(/("([^"]|"")*"|[^,]*)/g).filter((x,i,a)=>i%2===0||x!=="").map(x=>x.replace(/^"|"$/g,""))).filter(c=>{const k=c[iW];if(seen.has(k))return false;seen.add(k);return true}).map(c=>`${c[iB]||""} · ${c[iN]||""}`)}
+  rows=[...new Set(rows)]; if(!rows.length) return toast("Pega la lista primero");
+  const d=$("#drum"); d.classList.remove("win"); let i=0, sp=40; const st=performance.now();
+  (function roll(){d.textContent=rows[Math.floor(Math.random()*rows.length)];i++;
+    if(performance.now()-st<4200){sp*=1.045;setTimeout(roll,sp)}else{const w=rows[Math.floor(Math.random()*rows.length)];d.textContent=w;d.classList.add("win");confetti(160);$("#sInfo").textContent=`Ganador entre ${rows.length} participantes · ${new Intl.DateTimeFormat("es-CO",{timeZone:"America/Bogota",dateStyle:"long",timeStyle:"short"}).format(new Date())}`}})();
+};
+
+applyLang(); watch(); setInterval(watch,800);
+if("serviceWorker" in navigator) navigator.serviceWorker.register("sw.js");
+</script>
+</body>
+</html>
