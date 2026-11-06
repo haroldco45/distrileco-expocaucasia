@@ -2,7 +2,7 @@
 
 App (PWA) del stand de **Distrileco Caucasia S.A.S.** en ExpoCaucasia 2026 (6 y 7 de noviembre, Caucasia): Super Arroz y Arroz Vistahermosa.
 
-**URL:** https://distrileco-expocaucasia.netlify.app
+**URL:** https://distrileco-en-expocaucasia.netlify.app
 
 ## Qué trae
 - Portada con la foto real del stand, en vivo con la hora de Colombia y la cuenta regresiva al cierre de la feria
@@ -11,7 +11,7 @@ App (PWA) del stand de **Distrileco Caucasia S.A.S.** en ExpoCaucasia 2026 (6 y 
 - Pedido para tenderos que se envía por WhatsApp
 - Recetas, cobertura, contacto, QR y botón de compartir
 - Español / inglés, instalable, funciona sin señal
-- **Sorteo en vivo:** abre `https://distrileco-expocaucasia.netlify.app/?sorteo=1`, pega la lista y presiona Sortear
+- **Sorteo en vivo:** abre `https://distrileco-en-expocaucasia.netlify.app/?sorteo=1`, pega la lista y presiona Sortear
 
 ## Inscripciones a la rifa
 Llegan a **Netlify → el sitio → Forms → rifa-distrileco**. Ahí se descargan en CSV y ese CSV se pega tal cual en el sorteo en vivo (se quitan los WhatsApp repetidos).
